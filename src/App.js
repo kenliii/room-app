@@ -1,7 +1,12 @@
+import Header from "./components/header";
+import Showcase from "./components/Showcase";
 
 function App() {
   return (
-    <h1>Room Homepage</h1>
+    <>
+      <Header />
+      <Showcase />
+    </>
   
   );
 }
